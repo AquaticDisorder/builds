@@ -22,4 +22,4 @@ projects[drupal][patch][1697570] = http://drupal.org/files/drupal-menu_always_lo
 projects[openatrium][type] = profile
 projects[openatrium][download][type] = git
 projects[openatrium][download][branch] = 7.x-2.x
-projects[openatrium][download][url] = "git@github.com:AquaticDisorder/openatrium.git"
+projects[openatrium][download][url] = "http://github.com/AquaticDisorder/openatrium.git"
