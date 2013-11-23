@@ -5,7 +5,7 @@ core = 7.x
 
 ; Drupal Core
 projects[drupal][type] = core
-projects[drupal][version] = 7.24
+projects[drupal][version] = 7.22
 ; Patch for handling inherited profiles
 projects[drupal][patch][1356276] = http://drupal.org/files/1356276-make-D7-21.patch
 ; Patch for fixing node_access across non-required Views relationships
@@ -25,7 +25,7 @@ projects[drupal][patch][1697570] = http://drupal.org/files/drupal-menu_always_lo
 
 
 ; Download the OpenAtrium Install profile and recursively build all its dependencies:
-projects[openatrium][type] = profile
-projects[openatrium][download][type] = git
-projects[openatrium][download][url] = "git://github.com/AquaticDisorder/ks-openatrium.git"
-projects[openatrium][download][branch] = ks-dev-7.x-2.x
+projects[ks-openatrium][type] = profile
+projects[ks-openatrium][download][type] = git
+projects[ks-openatrium][download][url] = "git://github.com/AquaticDisorder/ks-openatrium.git"
+projects[ks-openatrium][download][branch] = ks-dev-7.x-2.x
